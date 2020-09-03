@@ -69,6 +69,9 @@ export default {
           file: `js/jquery-3.5.1.min.js`
         });
         chrome.tabs.executeScript(tabs[0].id, {
+          file: `js/download.js`
+        });
+        chrome.tabs.executeScript(tabs[0].id, {
           file: `js/${filename}`
         });
       });
