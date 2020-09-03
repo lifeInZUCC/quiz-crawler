@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function saveJSON(filename, data) {
   const blobData = new Blob([data], { type: "text/json" });
   const url = window.URL.createObjectURL(blobData);
